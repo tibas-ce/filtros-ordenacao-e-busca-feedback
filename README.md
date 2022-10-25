@@ -24,38 +24,16 @@ Você **não precisa** responder às questões abaixo dentro de seu projeto, mas
 - Observe o `App.js`, o que você consegue visualizar que já conhece? Lembra dos filtros e map aplicados durante a aula? 
 - Analize o componente `Header`, o componente `PokemonCard` e o `App.js`.
   - No componente `Header` temos um array de tipos de pokemon que está sendo mapeado e retornando as opções dentro do dropdown de tipos.
-  - No componente 
-explicar aqui sobre o array de tipos de pokemon e as funções na pasta utils.
+  - No componente `PokemonCard` todas as props já estão sendo passadas corretamente também. Os filtros por id e por nome também já funcionam. 
+
+### - Agora vamos dar uma breve explicação sobre a pasta /utils no projeto: 
+
+Dentro dessa pasta você encontrará 2 arquivos, cada um com uma função. O objetivo dessa pasta é isolar funções que tem objetivos muito específicos para que elas possam ser reutilizadas posteriormente. Uma função retorna uma `cor` para o card ao receber o `tipo` do pokemon; a outra retorna o ícone correspondente a cada tipo do pokemon. Cada card tem no máximo 2 ícones de tipo. Se quiser, dê uma olhada nessas funções e tente entender o funcionamento delas.
 
 # Exercício 2
 
-Agora vamos incrementar o formulário que trabalhamos hoje de manhã, que agora é o componente `NameForm`, com uma prática muito comum no desenvolvimento Front-end: **verificações**. 
-## **Antes disso, passe as props corretamente do componente `MainPage.js` para o componente `NameForm.js`, caso contrário, a aplicação não vai funcionar!**
-O seu trabalho agora é garantir que o usuário está inserindo corretamente as informações que você precisa. Para isso, siga os seguintes passos e requisitos:
 
-- A pessoa estudante só pode se inscrever na Labenu se for maior de idade
-- O input de nome precisa ter no mínimo 10 caracteres e no máximo 30.
-- Verifique se o e-mail está no formato correto: usuario@usuario.com
-- Caso os dois inputs de email estejam com conteúdo iguais, o usuário pode seguir pra próxima etapa. 
-- Todos os campos são obrigatórios.
-
-Atenção: A lógica de avançar para a próxima etapa do formulário deve funcionar apenas SE todos os requisitos forem atendidos. Caso contrário, uma mensagem de `alert()` deve aparecer para o usuário indicando que ele não respondeu o formulário corretamente.
 
 # Exercício 3
 
-Agora que os requisitos da etapa anterior foram atendidos, você precisa criar os inputs do próximo formulário do zero. Além disso, você também precisa controlar todos esses inputs e verificar se os dados atendem os requisitos para finalizar a inscrição da pessoa estudante. 
-
-Para este formulário você vai precisar: 
-
-- Criar um input onde seja possível inserir a data de nascimento da pessoa.
-- Criar um input onde seja possível inserir o número de telefone da pessoa.
-- Criar um input do tipo dropdown onde a pessoa possa escolher um gênero entre as seguintes opções: **Homem cisgênero, Mulher cisgênero, Homem trans, Mulher trans, Pessoa não binária, Prefiro não dizer**. (Pode dar uma olhada aqui no conteúdo selecionado: (https://reactjs.org/docs/forms.html#the-select-tag:~:text=In%20HTML%2C%20%3Cselect,one%20place.%20For%20example%3A)
-- Criar um input do tipo dropdown onde a pessoa possa escolher como se autodeclara: Negro, branco, pardo, amarelo, indígena ou prefiro não dizer.
-- Criar 2 inputs do tipo `radio` onde a pessoa possa escolher apenas uma opção entre as duas: Curso integral web fullstack ou Curso noturno web fullstack (pode dar uma olhada aqui: https://www.w3schools.com/tags/att_input_type_radio.asp)
-- Criar 2 inputs do tipo `checkbox` onde a pessoa confirma que: Tem ensino médio completo e Tem disponibilidade para participar das atividades. (Pode dar uma olhada aqui: https://www.w3schools.com/tags/att_input_type_checkbox.asp)
-
-
-Quando tudo estiver finalizado, crie uma função de `onClick` no botão `Enviar dados` do componente `ConfirmationForm` que limpa os inputs e confirma para o usuário através de um `alert()` que a inscrição foi finalizada. Isso só pode acontecer se todos os campos forem preenchidos.
-
-Atenção: Só deve ser possível selecionar uma única opção nos inputs de drowdown para gênero e autodeclaração de cor.
 
