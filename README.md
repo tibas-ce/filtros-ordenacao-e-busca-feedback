@@ -40,4 +40,4 @@ O seu trabalho hoje é bem simples: Você precisa aplicar `mais 2 filtros`. Prim
 
 # Exercício 3
 
-O segundo filtro será uma ordenação por ordem crescente ou decrescente do id.
+O segundo filtro será uma ordenação por ordem crescente ou decrescente alfabeticamente. Baseando-se no nome do pokemon, se a ordem `crescente` estiver ativada, os pokemons são ordenados em ordem alfabética (a-z). Se a ordem `decrescente` estiver ativada, os pokemons ficam organizados ao inverso da ordem alfabética (z-a).
