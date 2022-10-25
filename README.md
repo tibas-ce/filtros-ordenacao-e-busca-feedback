@@ -13,8 +13,6 @@ Para executar este exercício, você pode criar uma nova aplicação React, util
 
 Caso queira criar uma nova aplicação React, basta copiar os conteúdos deste repositório e colar dentro da pasta do seu projeto criado.
 
-
-
 # Exercício 1
 
 Primeiro, vamos analisar todo o código que vocês estão recebendo.
@@ -32,8 +30,14 @@ Dentro dessa pasta você encontrará 2 arquivos, cada um com uma função. O obj
 
 # Exercício 2
 
+O seu trabalho hoje é bem simples: Você precisa aplicar `mais 2 filtros`. Primeiro, aplique o filtro de tipos de pokemon. Os requisitos são: 
+
+- Ao selecionar um tipo de pokemon no dropdown, todos os pokemons que tiverem aquele tipo precisam aparecer na tela, independente se o tipo for o primário ou o secundário. 
+  - Primário é o tipo que aparece primeiro, secundário é o tipo que aparece depois, caso exista.
+- Quando o input estiver vazio, todos os pokemons continuam aparecendo na tela.
+- No objeto que representa um pokemon, `type` é um array de tipos, use apenas o primeiro elemento do array como referência.
 
 
 # Exercício 3
 
-
+O segundo filtro será uma ordenação por ordem crescente ou decrescente do id.
