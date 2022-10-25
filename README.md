@@ -1,4 +1,4 @@
-# Inputs Controlados
+# Filtros, ordenação e busca
 
 Caso não lembre como funciona o processo de entrega, clique [**aqui**](https://github.com/labenuexercicios/instrucoes-entrega)
 
@@ -23,7 +23,8 @@ Você **não precisa** responder às questões abaixo dentro de seu projeto, mas
 
 - Observe o `App.js`, o que você consegue visualizar que já conhece? Lembra dos filtros e map aplicados durante a aula? 
 - Analize o componente `Header`, o componente `PokemonCard` e o `App.js`.
-
+  - No componente `Header` temos um array de tipos de pokemon que está sendo mapeado e retornando as opções dentro do dropdown de tipos.
+  - No componente 
 explicar aqui sobre o array de tipos de pokemon e as funções na pasta utils.
 
 # Exercício 2
